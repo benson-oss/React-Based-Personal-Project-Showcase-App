@@ -17,7 +17,7 @@ import SearchBar from "./components/SearchBar.jsx";
 import EditProjectForm from "./components/EditProjectsForm.jsx";
 import Loader from "./components/Loader.jsx";
 import ErrorMessage from "./components/ErrorMessage.jsx";
-import { getBeers, getBeer, createBeer, updateBeer, deleteBeer } from "./API/Projects.js";
+import { getBeers, getProjects, createProject, updateProject, deleteProject } from "./API/Projects.js";
  function App(){
 
 return(
