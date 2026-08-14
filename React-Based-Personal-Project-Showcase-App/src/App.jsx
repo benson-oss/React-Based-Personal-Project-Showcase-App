@@ -1,23 +1,23 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css"
 // Pages
 import Landing from "./pages/Landing.jsx";
 import AddProduct from "./pages/AddProduct.jsx";
-import ProjectDetail from "./pages/ProjectDetail.jsx";
+import ProductDetail from "./pages/ProductDetail.jsx";
 import Search from "./pages/Search.jsx";
 
 // Components
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
-import ProjectCard from "./components/ProjectCard.jsx";
-import ProjectsList from "./components/ProjectsList.jsx";
-import ProjectsForm from "./components/ProjectsForm.jsx";
+import ProductCard from "./components/ProductCard.jsx";
+import ProductsList from "./components/ProductsList.jsx";
+import ProductsForm from "./components/ProductsForm.jsx";
 import SearchBar from "./components/SearchBar.jsx";
-import EditProjectForm from "./components/EditProjectsForm.jsx";
+import EditProductForm from "./components/EditProductsForm.jsx";
 import Loader from "./components/Loader.jsx";
 import ErrorMessage from "./components/ErrorMessage.jsx";
-import { getProjects, getProject, createProject, updateProject, deleteProject } from "./API/Projects.js";
- function App(){
+import { getProducts, getProduct, createProduct, updateProduct, deleteProduct } from "./API/Products.js"; function App(){
 
 return(
 

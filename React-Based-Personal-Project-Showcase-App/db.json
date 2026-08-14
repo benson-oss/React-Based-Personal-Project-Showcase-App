@@ -1,44 +1,84 @@
 {
-  "projects": [
+  "products": [
     {
       "id": 1,
-      "title": "Modern Website UI",
-      "description": "A responsive and modern user interface design built with React and CSS Grid.",
-      "image": "https://via.placeholder.com/150",
-      "category": "Web Development",
-      "date": "2026-07-01"
+      "title": "Espresso Roast",
+      "description": "Rich and bold espresso blend.",
+      "origin": "Italy",
+      "price": 5.50,
+      "category": "Espresso",
+      "image": "https://via.placeholder.com/200x150?text=Espresso",
+      "date": "2026-08-14"
     },
     {
       "id": 2,
-      "title": "Branding Portfolio",
-      "description": "A portfolio showcasing branding projects with dynamic routing and reusable components.",
-      "image": "https://via.placeholder.com/150",
-      "category": "Design",
-      "date": "2026-07-05"
+      "title": "Kenyan AA",
+      "description": "Bright acidity with fruity notes.",
+      "origin": "Kenya",
+      "price": 7.00,
+      "category": "Single Origin",
+      "image": "https://via.placeholder.com/200x150?text=Kenyan+AA",
+      "date": "2026-08-14"
     },
     {
       "id": 3,
-      "title": "Music Player App",
-      "description": "Interactive music player with audio controls, playlists, and state management using hooks.",
-      "image": "https://via.placeholder.com/150",
-      "category": "React Projects",
-      "date": "2026-07-10"
+      "title": "Colombian Supremo",
+      "description": "Smooth and balanced medium roast.",
+      "origin": "Colombia",
+      "price": 6.50,
+      "category": "Single Origin",
+      "image": "https://via.placeholder.com/200x150?text=Colombian",
+      "date": "2026-08-14"
     },
     {
       "id": 4,
-      "title": "Recipe Finder",
-      "description": "A recipe search app that fetches data from an API and allows users to save favorites.",
-      "image": "https://via.placeholder.com/150",
-      "category": "API Integration",
-      "date": "2026-07-15"
+      "title": "French Roast",
+      "description": "Dark roast with smoky flavor.",
+      "origin": "France",
+      "price": 5.75,
+      "category": "Dark Roast",
+      "image": "https://via.placeholder.com/200x150?text=French+Roast",
+      "date": "2026-08-14"
     },
     {
       "id": 5,
-      "title": "Fitness Tracker",
-      "description": "A fitness tracking app with forms, charts, and persistent data storage.",
-      "image": "https://via.placeholder.com/150",
-      "category": "Health",
-      "date": "2026-07-20"
+      "title": "House Blend",
+      "description": "Balanced blend for everyday coffee.",
+      "origin": "Global",
+      "price": 4.99,
+      "category": "Blend",
+      "image": "https://via.placeholder.com/200x150?text=House+Blend",
+      "date": "2026-08-14"
+    },
+    {
+      "id": 6,
+      "title": "Mocha Java",
+      "description": "Classic blend of Mocha and Java beans.",
+      "origin": "Yemen & Indonesia",
+      "price": 6.25,
+      "category": "Blend",
+      "image": "https://via.placeholder.com/200x150?text=Mocha+Java",
+      "date": "2026-08-14"
+    },
+    {
+      "id": 7,
+      "title": "Cappuccino Mix",
+      "description": "Creamy cappuccino ready blend.",
+      "origin": "Italy",
+      "price": 5.00,
+      "category": "Specialty",
+      "image": "https://via.placeholder.com/200x150?text=Cappuccino",
+      "date": "2026-08-14"
+    },
+    {
+      "id": 8,
+      "title": "Latte Blend",
+      "description": "Smooth blend perfect for lattes.",
+      "origin": "Brazil",
+      "price": 5.25,
+      "category": "Specialty",
+      "image": "https://via.placeholder.com/200x150?text=Latte",
+      "date": "2026-08-14"
     }
   ]
 }
