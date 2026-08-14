@@ -18,28 +18,28 @@ async function request(path, options = {}) {
     return response.json();
 } 
 
-export function getBeers() {
+export function getProjects() {
     return request('/projects')
 }
 
-export function getBeer(id) {
+export function getProject(id) {
     return request(`/projects/${id}`)
 }
 
-export function createBeer(beer) {
+export function createProject(beer) {
     return request('/projects', {
         method: 'POST',
         body: JSON.stringify(beer),
     })
 }
 
-export function updateBeer(id, changes){
+export function updateProject(id, changes){
     return request(`/projects/${id}`, {
         method: 'PATCH',
         body: JSON.stringify(changes),
     })
 }
 
-export function deleteBeer(id) {
+export function deleteProject(id) {
     return request(`/projects/${id}`, {method: 'DELETE'})
 }
