@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "Noise-cancelling over-ear headphones with Bluetooth connectivity.",
+      "price": 120,
+      "image": "https://via.placeholder.com/150",
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "description": "Latest model smartphone with high-resolution display and fast processor.",
+      "price": 850,
+      "image": "https://via.placeholder.com/150",
+      "category": "Electronics"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "description": "Lightweight and comfortable shoes designed for long-distance running.",
+      "price": 75,
+      "image": "https://via.placeholder.com/150",
+      "category": "Sportswear"
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "description": "Automatic drip coffee maker with programmable timer.",
+      "price": 60,
+      "image": "https://via.placeholder.com/150",
+      "category": "Home Appliances"
+    }
+  ]
+}
