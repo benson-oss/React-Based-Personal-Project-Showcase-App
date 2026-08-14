@@ -19,27 +19,27 @@ async function request(path, options = {}) {
 } 
 
 export function getProjects() {
-    return request('/Projects')
+  return request('/projects');
 }
 
 export function getProject(id) {
-    return request(`/Projects/${id}`)
+  return request(`/projects/${id}`);
 }
 
-export function createProject(beer) {
-    return request('/Projects', {
-        method: 'POST',
-        body: JSON.stringify(beer),
-    })
+export function createProject(project) {
+  return request('/projects', {
+    method: 'POST',
+    body: JSON.stringify(project),
+  });
 }
 
-export function updateProject(id, changes){
-    return request(`/Projects/${id}`, {
-        method: 'PATCH',
-        body: JSON.stringify(changes),
-    })
+export function updateProject(id, changes) {
+  return request(`/projects/${id}`, {
+    method: 'PATCH',
+    body: JSON.stringify(changes),
+  });
 }
 
 export function deleteProject(id) {
-    return request(`/Projects/${id}`, {method: 'DELETE'})
+  return request(`/projects/${id}`, { method: 'DELETE' });
 }
