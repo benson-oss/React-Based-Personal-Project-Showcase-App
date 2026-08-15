@@ -7,7 +7,7 @@
       "origin": "Italy",
       "price": 5.50,
       "category": "Espresso",
-      "image": "https://via.placeholder.com/200x150?text=Espresso",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzjGvenvEhXgMVZn3UBl4LNwVCuqm6shDIwhvgZYDW5A&s=10",
       "date": "2026-08-14"
     },
     {
@@ -17,7 +17,7 @@
       "origin": "Kenya",
       "price": 7.00,
       "category": "Single Origin",
-      "image": "https://via.placeholder.com/200x150?text=Kenyan+AA",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDYBYnpDmoLq4VzaqMBuIaE_NUWNgrccZ8mJsDfttNhw&s=10",
       "date": "2026-08-14"
     },
     {
@@ -27,7 +27,7 @@
       "origin": "Colombia",
       "price": 6.50,
       "category": "Single Origin",
-      "image": "https://via.placeholder.com/200x150?text=Colombian",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNcD3FWwCcQawZSUstxvWh3SKgq6al7zVIlx3T_dAaQ&s=10",
       "date": "2026-08-14"
     },
     {
@@ -37,7 +37,7 @@
       "origin": "France",
       "price": 5.75,
       "category": "Dark Roast",
-      "image": "https://via.placeholder.com/200x150?text=French+Roast",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKkvYCG9hZnAUd2i44RFTs6oqG4el88BX5vklzEWq3g&s=10",
       "date": "2026-08-14"
     },
     {
@@ -47,7 +47,7 @@
       "origin": "Global",
       "price": 4.99,
       "category": "Blend",
-      "image": "https://via.placeholder.com/200x150?text=House+Blend",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbk2ARoPboc9GaslF52jKMNMZGhhljGohgGiEMVQ55A&s=10",
       "date": "2026-08-14"
     },
     {
@@ -57,7 +57,7 @@
       "origin": "Yemen & Indonesia",
       "price": 6.25,
       "category": "Blend",
-      "image": "https://via.placeholder.com/200x150?text=Mocha+Java",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQzWnoyS7xcRB701PN2r_EsMAb5ORtUoCxOZUYYdsscQ&s=10",
       "date": "2026-08-14"
     },
     {
@@ -67,7 +67,7 @@
       "origin": "Italy",
       "price": 5.00,
       "category": "Specialty",
-      "image": "https://via.placeholder.com/200x150?text=Cappuccino",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGGcf5NkQTmAyNqoMeGKQUVcbAN6TUgtGVT29ZpqNvrw&s",
       "date": "2026-08-14"
     },
     {
@@ -77,7 +77,7 @@
       "origin": "Brazil",
       "price": 5.25,
       "category": "Specialty",
-      "image": "https://via.placeholder.com/200x150?text=Latte",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaSDuxvyGV6aSCk2nlmpruJZUIj0lA6ja50_mQLTk70w&s=10",
       "date": "2026-08-14"
     }
   ]
