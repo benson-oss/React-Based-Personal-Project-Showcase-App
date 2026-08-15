@@ -9,7 +9,6 @@ vi.mock("../API/Products", () => ({
   getProducts: getProductsMock,
 }));
 
- t
 vi.mock("../components/ProductsList", () => ({
   default: ({ getProducts }) => (
     <button type="button" onClick={getProducts}>
