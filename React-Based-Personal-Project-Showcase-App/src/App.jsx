@@ -15,12 +15,19 @@ import ProductsList from "./components/ProductsList.jsx";
 import EditProductForm from "./components/EditProductsForm.jsx";
 
 // API functions
-import { getProducts, getProduct, createProduct, updateProduct, deleteProduct } from "./API/Products.js";
+import {
+  getProducts,
+  getProduct,
+  createProduct,
+  updateProduct,
+  deleteProduct
+} from "./API/Products.js";
 
 function App() {
   return (
     <Router>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/products" element={<ProductsList />} />
@@ -29,6 +36,7 @@ function App() {
         <Route path="/edit/:id" element={<EditProductForm />} />
         <Route path="/search" element={<Search />} />
       </Routes>
+
       <Footer />
     </Router>
   );
