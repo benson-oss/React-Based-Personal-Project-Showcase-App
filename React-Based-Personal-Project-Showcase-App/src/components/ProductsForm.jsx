@@ -1,25 +1,32 @@
 import { useState } from "react";
+import { createProduct } from "../api/products";
 
-export default function ProductsForm({ onSubmit }) {
-  const [formData, setFormData] = useState({ title: "", description: "", image: "", category: "" });
+function ProductsForm() {
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
 
-  function handleChange(e) {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  }
-
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    onSubmit(formData);
-    setFormData({ title: "", description: "", image: "", category: "" });
+    await createProduct({ title, description });
+    setTitle("");
+    setDescription("");
   }
 
   return (
     <form onSubmit={handleSubmit}>
-      <input name="title" value={formData.title} onChange={handleChange} placeholder="Title" />
-      <input name="description" value={formData.description} onChange={handleChange} placeholder="Description" />
-      <input name="image" value={formData.image} onChange={handleChange} placeholder="Image URL" />
-      <input name="category" value={formData.category} onChange={handleChange} placeholder="Category" />
-      <button type="submit">Save</button>
+      <input
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        placeholder="Title"
+      />
+      <textarea
+        value={description}
+        onChange={(e) => setDescription(e.target.value)}
+        placeholder="Description"
+      />
+      <button type="submit">Add Product</button>
     </form>
   );
 }
+
+export default ProductsForm;
