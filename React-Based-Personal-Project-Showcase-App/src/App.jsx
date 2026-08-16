@@ -3,12 +3,12 @@ import "./App.css";
 
 // Pages
 import Landing from "./pages/Landing.jsx";
-import AddProduct from "./pages/AddProduct.jsx";
-import ProductDetail from "./pages/ProductDetail.jsx";
-import Search from "./pages/Search.jsx";
+import AddProduct from "./pages/Add.jsx"
+import ProductDetail from "./pages/ProductsDetails.jsx"
+import Search from "./pages/Search.jsx"
 
 // Components
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "./components/ Navbar.jsx"
 import Footer from "./components/Footer.jsx";
 import ProductsList from "./components/ProductsList.jsx";
 import EditProductForm from "./components/EditProductsForm.jsx";
