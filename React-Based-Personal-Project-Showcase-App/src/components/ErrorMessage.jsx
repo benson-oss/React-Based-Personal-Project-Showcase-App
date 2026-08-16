@@ -1,4 +1,3 @@
-import "../styles/site-sections.css";
 
 export default function ErrorMessage({
   message = "Something went wrong. Please try again.",

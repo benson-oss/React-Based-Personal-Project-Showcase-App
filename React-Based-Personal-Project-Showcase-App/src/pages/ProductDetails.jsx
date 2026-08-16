@@ -43,7 +43,7 @@ function ProductDetails() {
     <div className="product-details">
       <button onClick={() => navigate("/products")}>← Back</button>
 
-      {/* Reuse ProductCard for consistent styling */}
+      
       <ProductCard product={product} />
 
       <div className="actions">
