@@ -4,7 +4,7 @@ import "./App.css";
 // Pages
 import Landing from "./pages/Landing.jsx";
 import AddProduct from "./pages/Add.jsx"
-import ProductDetail from "./pages/ProductsDetails.jsx"
+import ProductDetail from "./pages/ProductDetail.jsx"
 import Search from "./pages/Search.jsx"
 
 // Components
