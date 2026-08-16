@@ -4,8 +4,7 @@ import "./App.css";
 // Pages
 import Landing from "./pages/Landing.jsx";
 import AddProduct from "./pages/Add.jsx"
-import ProductDetail from "./pages/ProductDetail.jsx"
-import Search from "./pages/Search.jsx"
+import ProductDetails from "./pages/ProductDetails.jsx";import Search from "./pages/Search.jsx"
 
 // Components
 import Navbar from "./components/ Navbar.jsx"
@@ -29,8 +28,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/products" element={<ProductsList />} />
-        <Route path="/products/:id" element={<ProductDetail />} />
+        <Route path="/products" element={<ProductsList getProducts={getProducts} />} />
+<Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/add" element={<AddProduct />} />
         <Route path="/edit/:id" element={<EditProductForm />} />
         <Route path="/search" element={<Search />} />
