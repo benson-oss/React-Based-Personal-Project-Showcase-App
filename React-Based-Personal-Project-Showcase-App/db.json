@@ -1,12 +1,22 @@
 {
   "products": [
     {
+      "id": "1",
+      "title": "Espresso Roast",
+      "description": "Rich and bold espresso blend.",
+      "origin": "Italy",
+      "price": 5.5,
+      "category": "Espresso",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzjGvenvEhXgMVZn3UBl4LNwVCuqm6shDIwhvgZYDW5A&s=10",
+      "date": "2026-08-14"
+    },
+    {
       "id": "2",
       "title": "Kenyan AA",
       "description": "Bright acidity with fruity notes.",
       "origin": "Kenya",
       "price": 7,
-      "category": "Single ",
+      "category": "Single Origin",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDYBYnpDmoLq4VzaqMBuIaE_NUWNgrccZ8mJsDfttNhw&s=10",
       "date": "2026-08-14"
     },
@@ -28,6 +38,16 @@
       "price": 5.75,
       "category": "Dark Roast",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKkvYCG9hZnAUd2i44RFTs6oqG4el88BX5vklzEWq3g&s=10",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "5",
+      "title": "House Blend",
+      "description": "Balanced blend for everyday coffee.",
+      "origin": "Global",
+      "price": 4.99,
+      "category": "Blend",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbk2ARoPboc9GaslF52jKMNMZGhhljGohgGiEMVQ55A&s=10",
       "date": "2026-08-14"
     },
     {
