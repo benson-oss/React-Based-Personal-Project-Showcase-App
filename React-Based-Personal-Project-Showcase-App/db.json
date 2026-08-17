@@ -1,37 +1,37 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Espresso Roast",
       "description": "Rich and bold espresso blend.",
       "origin": "Italy",
-      "price": 5.50,
+      "price": 5.5,
       "category": "Espresso",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzjGvenvEhXgMVZn3UBl4LNwVCuqm6shDIwhvgZYDW5A&s=10",
       "date": "2026-08-14"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Kenyan AA",
       "description": "Bright acidity with fruity notes.",
       "origin": "Kenya",
-      "price": 7.00,
+      "price": 7,
       "category": "Single Origin",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDYBYnpDmoLq4VzaqMBuIaE_NUWNgrccZ8mJsDfttNhw&s=10",
       "date": "2026-08-14"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Colombian Supremo",
       "description": "Smooth and balanced medium roast.",
       "origin": "Colombia",
-      "price": 6.50,
+      "price": 6.5,
       "category": "Single Origin",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNcD3FWwCcQawZSUstxvWh3SKgq6al7zVIlx3T_dAaQ&s=10",
       "date": "2026-08-14"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "French Roast",
       "description": "Dark roast with smoky flavor.",
       "origin": "France",
@@ -41,7 +41,7 @@
       "date": "2026-08-14"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "House Blend",
       "description": "Balanced blend for everyday coffee.",
       "origin": "Global",
@@ -51,7 +51,7 @@
       "date": "2026-08-14"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Mocha Java",
       "description": "Classic blend of Mocha and Java beans.",
       "origin": "Yemen & Indonesia",
@@ -61,17 +61,17 @@
       "date": "2026-08-14"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Cappuccino Mix",
       "description": "Creamy cappuccino ready blend.",
       "origin": "Italy",
-      "price": 5.00,
+      "price": 5,
       "category": "Specialty",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGGcf5NkQTmAyNqoMeGKQUVcbAN6TUgtGVT29ZpqNvrw&s",
       "date": "2026-08-14"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Latte Blend",
       "description": "Smooth blend perfect for lattes.",
       "origin": "Brazil",
@@ -80,5 +80,6 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaSDuxvyGV6aSCk2nlmpruJZUIj0lA6ja50_mQLTk70w&s=10",
       "date": "2026-08-14"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
